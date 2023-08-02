@@ -3,10 +3,16 @@
 	padding: 0;
 }
 
+@font-face {
+	font-family: 'SanFrancisco'; 
+	src: url(SanFranciscoText-Regular.otf); 
+}
+
 body {
 	height: 100vh;
 	background-color: #18122b;
 	color: beige;
+    font-family: SanFrancisco;
 }
 
 
@@ -70,11 +76,10 @@ form input {
 .btn{
 	margin: auto;
 	margin-top: 1em;
-    height: 30px;
     background-color: #E8A96F;
     border: 0px;
     font-weight: bold;
-    padding: 4px 24px;
+    padding: 8px 24px;
     border-radius: 4px;
     cursor: pointer;
     text-transform: uppercase;
