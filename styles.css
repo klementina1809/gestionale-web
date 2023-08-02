@@ -7,6 +7,10 @@ body {
  height: 100vh;
  }
 
+ h1 {
+    text-align: center;
+ }
+
 .container-sm {
     background-color: antiquewhite;
     height: 100vh;
@@ -23,26 +27,43 @@ body {
     align-items: center;
     width: 400px;
     margin: auto;
-    margin-top: 20px;
     margin-top: 100px;
     padding: 1em;
+    border-radius: 8px;
 }
 
 .container-login p {
     font-size: 24px;
     margin-bottom: 1em;
-    
 }
 
 form {
     display: flex;
     flex-direction: column;
     width: 250px;
+    padding-inline: 10px;
+    
     
 }
 
+.form-group {
+    margin: 5px;
+}
+.form-group label{
+    display: block;
+    font-weight: bold;
+}
+
+form input {
+    border-radius: 4px;
+    height: 30px;
+    width: 100%
+}
+
 .login-buttom {
+    margin: auto;
     margin-top: 1em;
+    width: 4em;
 }
 
 
