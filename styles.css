@@ -1,43 +1,43 @@
-@import 'variables.css';
+@import "variables.css";
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
-   }
-   
-   * {
-   margin: 0;
-   padding: 0;
-   font: inherit;
-   }
-   
-   
-   body {
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+
+body {
 	min-height: 100vh;
-	}
-   
-   img,
-   svg,
-   video,
-   picture {
-	   display: block;
-	   max-width: 100%;
-   }
+}
+
+img,
+svg,
+video,
+picture {
+	display: block;
+	max-width: 100%;
+}
 
 @font-face {
-	font-family: 'SanFrancisco'; 
-	src: url(SanFranciscoText-Regular.otf); 
+	font-family: "SanFrancisco";
+	src: url(SanFranciscoText-Regular.otf);
 }
 
 body {
 	height: 100vh;
 	background-color: var(--body-background);
 	color: var(--text-color);
-    font-family: SanFrancisco;
+	font-family: SanFrancisco;
 }
 
-
 .text-center {
-    text-align: center;
+	text-align: center;
 }
 
 .container {
@@ -46,7 +46,6 @@ body {
 	width: 800px;
 	margin: auto;
 	padding: 40px 20px;
-
 }
 
 .form-container {
@@ -61,7 +60,7 @@ body {
 
 	background-color: var(--card-background);
 	border-radius: var(--card-border-radius);
-    box-shadow: var(--card-box-shadow);
+	box-shadow: var(--card-box-shadow);
 }
 
 .form-container p {
@@ -100,18 +99,18 @@ form {
 
 .form-group input:focus {
 	border-color: var(--input-focus-border-color);
-	box-shadow: 0 0.125rem 0.25rem rgba(15,20,34,.4);
+	box-shadow: 0 0.125rem 0.25rem rgba(15, 20, 34, 0.4);
 }
 
-.btn{
+.btn {
 	margin: auto;
 	margin-top: 1em;
-    padding: 8px 24px;
+	padding: 8px 24px;
 
-    background-color: var(--color-primary);
-    border: 0px;
-    font-weight: bold;
-    border-radius: 4px;
-    cursor: pointer;
-    text-transform: uppercase;
+	background-color: var(--color-primary);
+	border: 0px;
+	font-weight: bold;
+	border-radius: 4px;
+	cursor: pointer;
+	text-transform: uppercase;
 }
