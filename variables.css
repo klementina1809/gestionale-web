@@ -1,0 +1,29 @@
+:root {
+	--color-primary: #7367f0;
+
+	--body-background: #25293c;
+	--card-background: #2f3349;
+	--input-background: #2f3349;
+
+	--input-focus-border-color: #7367f0;
+
+	--input-border: 1px solid #434968;
+	--input-border-radius: 8px;
+	--card-border-radius: 8px;
+
+	--card-box-shadow: 0 0.25rem 1.25rem rgba(15, 20, 34, 0.4);
+
+	--input-text-color: #b6bee3;
+	--text-color: #cfd3ec;
+
+	--text-size-xs: 11px;
+	--text-size-s: 13px;
+	--text-size-m: 15px;
+	--text-size-l: 18px;
+	--text-size-xl: 20px;
+}
+
+/* Input box shadow on focus: 0 0.125rem 0.25rem rgba(15,20,34, 0.4)
+Input on focus: outline: 0
+input:focus::placeholder mettere più padding left
+Input padding: 4px 8px */
