@@ -86,8 +86,10 @@ form {
 }
 
 .form-group input {
-	height: 30px;
 	width: 100%;
+
+	padding:  8px 16px;
+	margin-top: 8px;
 
 	color: var(--input-text-color);
 
