@@ -114,3 +114,13 @@ form {
 	cursor: pointer;
 	text-transform: uppercase;
 }
+
+.footer {
+	background-color: var(--card-background);
+	position: fixed; 
+	left: 0; 
+	bottom: 0; 
+	width: 100%;
+	padding: 10px;
+	box-shadow: var(--card-box-shadow);
+}
