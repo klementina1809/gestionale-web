@@ -97,12 +97,22 @@ form {
 	border: var(--input-border);
 	background-color: var(--input-background);
 	outline: 0;
+	caret-color: var(--color-primary);
 }
 
 .form-group input:focus {
 	border-color: var(--input-focus-border-color);
 	box-shadow: 0 0.125rem 0.25rem rgba(15, 20, 34, 0.4);
 }
+
+.form-group input::placeholder {
+	transition: padding-left 0.3s ease;
+	padding-left: 0px;
+  }
+
+.form-group input:focus::placeholder {
+	padding-left: 4px;
+  }
 
 .btn {
 	margin: auto;
