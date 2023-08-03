@@ -131,6 +131,10 @@ form {
 	box-shadow: var(--card-box-shadow);
 }
 
+.create-account{
+	display: block;
+}
+
 .footer {
 	background-color: var(--card-background);
 	position: fixed; 
