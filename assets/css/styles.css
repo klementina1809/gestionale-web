@@ -1,4 +1,4 @@
-@import "assets/css/variables.css";
+@import "variables.css";
 
 *,
 *::before,
@@ -26,7 +26,7 @@ picture {
 
 @font-face {
 	font-family: "SanFrancisco";
-	src: url(u9juifonts/SanFranciscoText-Regular.otf);
+	src: url(../fonts/SanFranciscoText-Regular.otf);
 }
 
 body {
