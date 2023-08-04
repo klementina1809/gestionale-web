@@ -16,6 +16,10 @@ body {
 	min-height: 150vh;
 }
 
+a {
+	color: var(--link-color);
+}
+
 img,
 svg,
 video,
