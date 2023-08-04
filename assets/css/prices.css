@@ -1,8 +1,8 @@
 .card {
     display: flex;
 	flex-direction: column;
-	max-width: 370px;
-    min-height: 520px;
+	/* max-width: 370px;
+    min-height: 520px; */
 
 	margin: auto;
 	margin-top: 100px;
@@ -15,22 +15,22 @@
 }
 
 .card-image {
-    max-width: 100px;
-    margin-bottom: 24px;
-    margin: auto;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
 }
 
 .card h2 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 24px;
+    margin: 24px ;
 }
 
 .card-price {
     font-size: 36px;
     font-weight: bold;
     color: var(--color-primary);
-    margin: 16px;
+    margin: 24px;
     position: relative;
 }
 
@@ -43,6 +43,7 @@
 }
 
  .card-action{
+    margin-top: 16px;
     text-align: center;
 }
 
