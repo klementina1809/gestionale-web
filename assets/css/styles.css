@@ -12,9 +12,6 @@
 	font: inherit;
 }
 
-body {
-	min-height: 150vh;
-}
 
 a {
 	color: var(--link-color);
@@ -66,10 +63,10 @@ body {
 
 .container {
 	background-color: transparent;
-	height: 100vh;
+	min-height: 100vh;
 	width: 800px;
 	margin: auto;
-	padding: 40px 20px;
+	padding: 36px 24px 80px 24px
 }
 
 .form-container {
