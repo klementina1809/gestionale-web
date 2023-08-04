@@ -43,10 +43,14 @@
 }
 
  .card-action{
-    margin-top: 16px;
+    margin: 16px;
     text-align: center;
 }
 
 
+.card-wrapper {
+    display: flex;
+    gap: 24px;
+}
 
 
