@@ -1,37 +1,4 @@
-
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-	font: inherit;
-}
-
-.text-center {
-	text-align: center;
-}
-
-.m-4 {
-	margin: 4px;
-}
-.m-8 {
-	margin: 8px;
-}
-.m-16 {
-	margin: 16px;
-}
-.m-32 {
-	margin: 32px;
-}
-
-
- .card {
-
-
+.card {
     display: flex;
 	flex-direction: column;
 	max-width: 370px;
@@ -47,7 +14,7 @@
     border: solid 1px var(--color-primary);
 }
 
-.img-container {
+.card-image {
     max-width: 100px;
     margin-bottom: 24px;
     margin: auto;
@@ -59,7 +26,7 @@
     margin-bottom: 24px;
 }
 
-.prezzo {
+.card-price {
     font-size: 36px;
     font-weight: bold;
     color: var(--color-primary);
@@ -67,7 +34,7 @@
     position: relative;
 }
 
-.prezzo span {
+.price-currency {
     color: var(--input-text-color);
     font-size: 18px;
     position: absolute;
@@ -75,8 +42,8 @@
     padding-left: 4px;
 }
 
-.btn {
-    margin: auto;
+ .card-action{
+    text-align: center;
 }
 
 
