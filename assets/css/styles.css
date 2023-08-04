@@ -159,12 +159,16 @@ form {
 	display: block;
 }
 
-.footer {
-	background-color: var(--card-background);
+footer {
 	position: fixed; 
 	left: 0; 
 	bottom: 0; 
 	width: 100%;
+}
+
+.footer {
+	background-color: var(--card-background);
+	
 	padding: 10px;
 	box-shadow: var(--card-box-shadow);
 }
