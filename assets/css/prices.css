@@ -64,6 +64,15 @@
     font-weight: bold;
     color: var(--color-primary);
     margin: 16px;
+    position: relative;
+}
+
+.prezzo span {
+    color: var(--input-text-color);
+    font-size: 18px;
+    position: absolute;
+    bottom: 4px;
+    padding-left: 4px;
 }
 
 .btn {
