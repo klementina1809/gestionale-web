@@ -15,6 +15,12 @@ th {
     font-weight: 700;
 }
 
+/* td {
+    border-bottom: 1px solid red;
+} */
+.td-foto {
+    width: 60px;
+}
 td img {
     border-radius: 50%;
 }
