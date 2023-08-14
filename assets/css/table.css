@@ -1,12 +1,16 @@
 
+h1 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
 
 .table-container {
     margin: 86px 48px;
 }
 
-table {
-    margin: auto;
-    width: 800px;
+.basic-table {
+    width: 100%;
     padding: 24px;
     border-collapse: collapse;
     border-radius: var(--card-border-radius);
@@ -14,7 +18,7 @@ table {
     box-shadow: var(--card-box-shadow);
 }
 
-th {
+.basic-table th {
     font-weight: 700;
     text-align: left;
     padding: 16px;
@@ -24,12 +28,37 @@ th {
 .td-foto {
     width: 68px;
 }
-td {
+
+.basic-table td {
     border-top: var(--input-border);
     text-align: left;
     padding: 8px 16px;
 }
 
-td img {
+.basic-table td img {
     border-radius: 50%;
+}
+
+.basic-table td button {
+    padding: 4px 12px;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+#Active {
+    color: rgb(182, 164, 255);
+    background-color: rgba(108, 71, 255, 0.303);
+}
+#Completed {
+    color: rgb(146, 255, 150);
+    background-color: rgba(71, 255, 111, 0.303);
+}
+#Scheduled {
+    color: rgb(98, 197, 255);
+    background-color: rgba(45, 185, 255, 0.303);
+}
+#Pending {
+    color: rgb(255, 247, 17);
+    background-color: rgba(255, 251, 30, 0.303);
 }
