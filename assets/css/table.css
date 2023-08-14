@@ -6,6 +6,9 @@
 
 table {
     margin: auto;
+    width: 800px;
+    padding: 24px;
+    border-collapse: collapse;
     border-radius: var(--card-border-radius);
     background-color: var(--card-background);
     box-shadow: var(--card-box-shadow);
@@ -13,14 +16,20 @@ table {
 
 th {
     font-weight: 700;
+    text-align: left;
+    padding: 16px;
+
 }
 
-/* td {
-    border-bottom: 1px solid red;
-} */
 .td-foto {
-    width: 60px;
+    width: 68px;
 }
+td {
+    border-top: var(--input-border);
+    text-align: left;
+    padding: 8px 16px;
+}
+
 td img {
     border-radius: 50%;
 }
